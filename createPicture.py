@@ -18,5 +18,5 @@ sess.close()
 
 #简单方法：省了关闭session
 with tf.Session() as sess:
-    result=sess.run(product)
+    result = sess.run(product)
     print(result)
